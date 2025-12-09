@@ -1,7 +1,7 @@
 const Experience = () => {
   const experiences = [
     {
-      title: "Snowflake Developer",
+      title: "Data Engineer",
       company: "Deloitte South Asia LLP",
       period: "April 2025 – Present",
       description: "Leading data warehouse development and cloud migration projects.",
@@ -9,7 +9,7 @@ const Experience = () => {
       current: true
     },
     {
-      title: "Snowflake Developer",
+      title: "Data Engineer",
       company: "Applitech Solutions Pvt. Ltd.",
       period: "Feb 2023 – April 2025",
       description: "Developed ETL workflows and data lake solutions for enterprise clients.",
