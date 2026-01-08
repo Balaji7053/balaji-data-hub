@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-secondary/30">
+  return <section id="about" className="py-20 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -13,8 +12,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm Balaji Narapusetty, a Data Warehousing professional with over 1.5 years of experience 
-                specializing in Snowflake, DBT, Informatica PowerCenter, and cloud-based data integration.
+                I'm Balaji Narapusetty, a Data Warehousing professional with over 2+ years of experience specializing in Snowflake, DBT, Informatica PowerCenter, and cloud-based data integration.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -67,8 +65,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
